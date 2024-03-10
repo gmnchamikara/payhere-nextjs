@@ -9,8 +9,11 @@ Payhere hash code added.
 # Clone the project
 Colne project with git desktop, git or download the zip.
 
-### Installation...
-Use this command...
+### Installation
 ```python
 npm i
+```
+### Run the project
+```python
+npm run dev
 ```
