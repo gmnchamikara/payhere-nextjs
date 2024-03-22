@@ -20,8 +20,7 @@ export default async function handler(
         md5sig,
       } = req.body;
 
-      const merchant_secret =
-        "Mzg3OTY0OTEwMDQxOTg2ODQxODY0MTAyNjU3MjYxMjM1NzM2NzUwMg=="; // Replace with your Merchant Secret
+      const merchant_secret = ""; // Replace with your Merchant Secret
 
       const local_md5sig = crypto
         .createHash("md5")
